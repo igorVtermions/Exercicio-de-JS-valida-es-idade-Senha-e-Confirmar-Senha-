@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pagina de Registro</title>
+</head>
+<body>
+<main class="container">
+    <form class="content">
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email" required>
+
+        <label for="user">Nome do Usuário</label>
+        <input type="text" name="user" id="user" required>
+
+
+        <label for="tel">Número de Telefone</label>
+        <input type="text" name="tel" id="tel" required>
+
+        <label for="pass">Senha</label>
+        <input type="password" name="pass" id="pass" required minlength="8">
+
+        <label for="confiPass">Confirme sua Senha</label>
+        <input type="password" name="ConfiPass" id="passTwo" required>
+
+        <label for="date">Data de Nascimento</label>
+        <input type="date" name="date" id="date" required>
+
+       <div class="chk1">  
+        <input type="checkbox" name="chk" id="chk" class="chk one" required> <p>Aceitar os Termos de uso e Privacidade.</p>
+        </div>  
+        <div class="chk1">
+        <input type="checkbox" name="chk2" id="chk2" class="chk two">
+        <p>Deseja receber as notificações sobre o evento ?</p>
+        </div>
+
+        
+
+        <input type="submit" value="Continuar" id="button">
+    </form>
+</main>
+
+    <script src="index.js"></script>
+</body>
+</html>

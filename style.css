@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:#5200b7 ;
+    color: white;
+    padding: 20px;
+    border-radius: 50px 5px 50px 5px;
+    box-shadow: 6px 6px 6px  #999;
+    width: 600px;
+    height: 750px;
+}
+
+
+label{
+    padding-bottom: 5px;
+    margin-left: 16%;
+
+
+}input{
+    padding: 10px;
+    margin-bottom: 10px;
+    width:400px;
+    border-radius: 10px;
+    margin-left: 14%;
+    border: none;
+}
+
+.chk1{
+    display: flex;
+    margin-top: 20px;
+}
+#chk{
+    width: 50px;
+    cursor: pointer;
+}
+
+#chk2{
+    width: 50px;
+    cursor: pointer;
+}
+
+p{
+    font-weight:bolder ;
+}
+
+.content #button{
+position: relative;
+right: -90px;
+}
+
+
+
+#button{
+    cursor: pointer;
+    margin-top:10px;
+    width: 200px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    border: 2px solid white;
+    color: white;
+    background-color: #5200b7;
+    transition: all 1s ease;
+}
+
+#button:hover{
+    background: white;
+    color: #5200b7;
+    box-shadow: inset 0 0 0 3px;
+}
+
